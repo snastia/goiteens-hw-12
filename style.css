@@ -304,5 +304,50 @@ justify-content: center;
     text-align: center;
     margin-bottom: 50px;
 }
+.our-job{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.customers-list{
+    display: flex;
+}
+
+.customers-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.customers-link{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 90px;
+    border: 1px solid var(--svg);
+    color: var(--svg);
+    border-radius: 4px;
+}
+
+.customers-link:hover,
+.customers-link:focus{
+    border: 1px solid var(--accent-color);  
+    color: var(--accent-color); 
+}
+
+.customers-icon{
+    fill: currentColor;
+}
+.title{
+    text-align: center;
+    color:#212121;
+    margin-bottom: 50px;
+}
+.item-human{
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+     0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 
 
